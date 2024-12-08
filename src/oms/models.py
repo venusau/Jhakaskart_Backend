@@ -5,7 +5,6 @@ from sqlalchemy import (
     Integer,
     ForeignKey,
     DateTime,
-    UniqueConstraint,
 )
 from sqlalchemy.orm import relationship, declarative_base
 from commons import Brand, Image
