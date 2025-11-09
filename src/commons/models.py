@@ -17,6 +17,7 @@ class Image(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     image_url = Column(String, nullable=False)  # Corrected definition for image URL
+    image_size = Column(String, nullable=True) 
 
 
 class Brand(Base):
